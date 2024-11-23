@@ -27,8 +27,6 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: db_task
-      MYSQL_USER: root
-      MYSQL_PASSWORD: 123
       MYSQL_ROOT_PASSWORD: 123
     ports:
       - "8104:3306"
