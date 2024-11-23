@@ -20,7 +20,6 @@ services:
       - KAFKA_GROUP_ID=task-service-group
     depends_on:
       - db_task
-      - kafka
 
   db_task:
     container_name: db_task
